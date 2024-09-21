@@ -6,8 +6,9 @@ import AuthPage from './PAGES/registiration/AuthPage';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <AuthPage />
+      
+      {/* <Navbar />
+      <AuthPage /> */}
       <Footer /> 
     </div>
   );
