@@ -35,7 +35,7 @@
     position: absolute;
     top: 30px;
     left: 0;
-    background-color: #fff;
+    background-color: #867070;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     list-style-type: none;
@@ -51,7 +51,7 @@
   }
   
   .dropdown li:hover {
-    background-color: #f0f0f0;
+    background-color: #131212;
   }
   
   .auth-buttons {
