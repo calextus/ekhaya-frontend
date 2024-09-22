@@ -1,5 +1,7 @@
-// components/NavigationBar.js
+'use client';
+
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const NavigationBar = () => {
@@ -57,8 +59,12 @@ const NavigationBar = () => {
         </li>
       </ul>
       <div className="auth-buttons">
-        <button className="login">Log In</button>
-        <button className="register">Register</button>
+        <Link to="/login">
+          <button className="login">Log In</button>
+        </Link>
+        <Link to="/register">
+          <button className="register">Register</button>
+        </Link>
       </div>
     </nav>
   );

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './landingpage.css';
 
-function App() {
+function Landingpage() {
   const [trendingBusinesses, setTrendingBusinesses] = useState([]);
   const [latestBlogs, setLatestBlogs] = useState([]);
 
@@ -77,4 +77,4 @@ function App() {
   );
 }
 
-export default App;
+export default Landingpage;
