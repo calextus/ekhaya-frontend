@@ -2,12 +2,6 @@ import React from 'react';
 import './LoginPage.css'; // Assuming you're using an external CSS file
 
 const LoginPage = () => {
-  // Handler for the Sign Up button
-  const handleSignUpClick = () => {
-    // Redirect to the Sign Up page
-    window.location.href = './home/landingpage.jsx'; // Replace with the actual path you want to navigate to
-  };
-
   return (
     <div className="login-container">
       {/* Left Section - Sign In */}
@@ -33,9 +27,7 @@ const LoginPage = () => {
       <div className="login-right">
         <h2>Hello, Friend!</h2>
         <p>Enter your personal details and start your journey with us</p>
-        <button className="sign-up-button" onClick={handleSignUpClick}>
-          Sign Up
-        </button>
+        <button className="sign-up-button">Sign Up</button>
       </div>
     </div>
   );
