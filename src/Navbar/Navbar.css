@@ -1,0 +1,77 @@
+/* components/NavigationBar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    width: 200px;
+    z-index: 1000;
+  }
+  
+  .dropdown li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .login, .register {
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  
+  .register {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+  

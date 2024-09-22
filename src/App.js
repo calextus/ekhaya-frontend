@@ -1,14 +1,13 @@
 import './App.css';
-import Footer from './Footer/FOOTER.JSX';
-import Navbar from './NAVBAR/NAVBAR.JSX';
+import Footer from './Footer/Footer.jsx';
+import NavigationBar from './Navbar/Navbar.jsx';
 import AuthPage from './PAGES/registiration/AuthPage';
 
 function App() {
   return (
     <div className="App">
-      
-      {/* <Navbar />
-      <AuthPage /> */}
+      <NavigationBar />
+      <AuthPage /> 
       <Footer /> 
     </div>
   );
