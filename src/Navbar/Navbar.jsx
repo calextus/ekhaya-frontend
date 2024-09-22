@@ -9,7 +9,7 @@ const NavigationBar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">Ekhayas</div>
+      <div className="logo">Ekhaya</div>
       <ul className="navbar-menu">
         <li
           className="menu-item"
